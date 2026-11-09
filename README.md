@@ -17,6 +17,10 @@ A Python-based Conversational AI application using Retrieval-Augmented Generatio
 - LLM-generated answers grounded in retrieved context
 
 ## Architecture
+![Conversational AI RAG architecture](docs/architecture.png)
+
+[View the architecture diagram and implementation details](docs/architecture.md).
+
 Documents → Text Processing → Chunking → Embeddings → Pinecone
 
 User Question → Retrieval → Relevant Context → LLM → Answer
